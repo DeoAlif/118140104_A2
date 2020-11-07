@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 1</title>
+    <style>
+        .container {
+            width: 784px;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        header {
+            height: 200px;
+            background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Ampera_Bridge_at_Noon%2C_Palembang.jpg/250px-Ampera_Bridge_at_Noon%2C_Palembang.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+
+        .content {
+            height: 100%;
+            display: flex;
+        }
+
+        #kolom1 {
+            width: 200px;
+        }
+
+        #kolom2 {
+            width: 100%;
+        }
+
+        div.card img {
+            display: block;
+            margin: 20px auto;
+        }
+
+        footer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100px;
+        }
+
+        footer span {
+            padding: 20px;
+            border-radius: 30px;
+            border: 1px solid cyan;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header></header>
+        <div class="content">
+            <div id="kolom1">
+                <ul>
+                    <li><a href="#pempek">Pempek</a></li>
+                    <li><a href="#kemplang">Kemplang</a></li>
+                    <li><a href="#miecelor">Mie Celor</a></li>
+                </ul>
+            </div>
+            <div id="kolom2">
+                <div class="card" id="pempek">
+                    <img src="https://akcdn.detik.net.id/community/media/visual/2018/10/31/f51b5d71-2fa0-46d6-ac33-94409aead3e3_43.jpeg?w=480"
+                        alt="" width="200px" height="200px">
+                    <h2>Pempek</h2>
+                    <p>Pempek terbuat dari daging ikan seperti ikan tenggiri dan sagu, kemudian ditambahkan telur.
+                        Pempek ada yang berjenis kapal selam, lenjer, dan adaan. Yang khas, pempek disajikan dengan saus
+                        khusus yang bernama cuka. Orang Palembang menyebutnya cuko. Cuko terbuat dari campuran gula
+                        merah, cabai, bawang putih, garam, dan udang ebi.
+                        Kalau kamu makan pempek di kaki lima atau restoran, cukanya boleh ambil sepuasnya. Kamu bisa
+                        makan di restoran pempek terkenal di Palembang antara lain Candy dan Pempek Pak Raden. Selain
+                        makan di tempat, pempek bisa dibawa pulang untuk oleh-oleh keluarga atau rekan kantor.</p>
+                </div>
+                <div class="card" id="kemplang">
+                    <img src="https://akcdn.detik.net.id/community/media/visual/2017/08/06/0525b990-bc57-4392-8bcd-7244946cbd1b_43.jpg?w=480"
+                        alt="" width="200px" height="200px">
+                    <h2>Kemplang</h2>
+                    <p>Makan pempek nggak lengkap kalau tidak makan kudapan ini. Namanya kemplang. Kemplang merupakan
+                        kerupuk yang terbuat dari ikan tenggiri atau ikan gabus. Kemplang ada beberapa jenis seperti
+                        kemplang kerupuk, kemplang panggang dengan sambal terasi, kemplang koin, dan kemplang mangkok,
+                        dan kemplang getas.
+                        Karena seperti kerupuk, kempang memiliki rasa renyah dengan rasa ikan yang khas. Kamu bisa
+                        menemui kemplang di pasar-pasar tradisional di Palembang atau beli langsung di restoran pempek.
+                    </p>
+                </div>
+                <div class="card" id="miecelor">
+                    <img src="https://akcdn.detik.net.id/community/media/visual/2018/07/12/9b644459-29da-458f-b34e-cbab3568fb62_43.jpeg?w=480"
+                        alt="" width="200px" height="200px">
+                    <h2>Mie Celor</h2>
+                    <p>Mie Celor adalah makanan khas Palembang yang sudah terkenal. Makanan ini mirip mie Aceh. Namun
+                        untuk membuat mie celor, yang dipakai adalah jenis mie telur. Satu porsi mie Aceh diisi dengan
+                        mie dan kuah santan kaldu ebi. Satu porsi lengkap mie celor ada tambahan berupa tauge, telur,
+                        kucai, dan daging udang. Rasanya gurih banget. Mie celor bisa dimakan saat sarapan.</p>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <span>Pembuat Deo Alif Alfitrah (118140104)</span>
+        </footer>
+    </div>
+</body>
+
+</html>
